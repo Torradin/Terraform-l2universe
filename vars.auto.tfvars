@@ -1,0 +1,17 @@
+cpu                    = 4
+cores-per-socket       = 1
+ram                    = 4096
+disksize               = 30 # in GB
+vm-guest-id            = "ubuntu64Guest"
+vsphere-unverified-ssl = "true"
+vsphere-datacenter     = "dc-spb-esx-cls1.l2universe.online"
+vsphere-cluster        = "spb-esx-cls1"
+vm-datastore           = "vsanDatastore"
+vm-network             = "DPortGroup-cls1"
+vm-domain              = "l2universe.online"
+dns_server_list        = ["192.168.2.3", "192.168.2.4"]
+name                   = "ubuntu22-04-test"
+ipv4_address           = "192.168.2.169"
+ipv4_gateway           = "192.168.2.1"
+ipv4_netmask           = "24"
+vm-template-name       = "OFV-ubuntu2204"
